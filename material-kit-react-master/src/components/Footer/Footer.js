@@ -70,17 +70,8 @@ export default function Footer(props) {
           </List>
         </div>
         <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()} , made with{" "}
-          <Favorite className={classes.icon} /> by{" "}
-          <a
-            href="https://www.creative-tim.com?ref=mkr-footer"
-            className={aClasses}
-            target="_blank"
-          >
-            Creative Tim
-          </a>{" "}
-          for a better web.
-        </div>
+          Made by FTC Team #16021 Techno Maniacs
+      </div>
       </div>
     </footer>
   );
