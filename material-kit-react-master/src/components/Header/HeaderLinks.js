@@ -81,7 +81,6 @@ export default function HeaderLinks(props) {
         <Subject className={classes.icons} /> Engineering Notebook
       </Button>
     </ListItem>
-<<<<<<< Updated upstream
       <ListItem className={classes.listItem}>
         <Button
           href="/login-page"
