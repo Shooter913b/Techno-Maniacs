@@ -12,7 +12,7 @@ import ListItem from "@material-ui/core/ListItem";
 import Tooltip from "@material-ui/core/Tooltip";
 
 // @material-ui/icons
-import { Motorcycle, Person, Info, PowerSettingsNew, Subject, Update } from "@material-ui/icons";
+import { Motorcycle, Info, PowerSettingsNew, Subject, Update } from "@material-ui/icons";
 
 // core components
 import CustomDropdown from "components/CustomDropdown/CustomDropdown.js";
@@ -36,13 +36,13 @@ export default function HeaderLinks(props) {
           }}
           buttonIcon={Motorcycle}
           dropdownList={[
-            <Link to="/" className={classes.dropdownLink}>
+            <Link to="/skystone" className={classes.dropdownLink}>
               2019-2020 Skystone
             </Link>,
-            <Link to="/" className={classes.dropdownLink}>
+            <Link to="/ult-goal" className={classes.dropdownLink}>
               2020-2021 Ultimate Goal
             </Link>,
-            <Link to="/" className={classes.dropdownLink}>
+            <Link to="/tbd-page" className={classes.dropdownLink}>
               2021-2022 TBD
             </Link>,
           ]}
@@ -50,7 +50,16 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="/landing-page"
+          href="/"
+          color="transparent"
+          className={classes.navLink}
+        >
+            <Info className={classes.icons} /> About
+          </Button>
+        </ListItem>
+      <ListItem className={classes.listItem}>
+        <Button
+          href="/blog-page"
           color="transparent"
           className={classes.navLink}
         >
@@ -59,31 +68,13 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="/"
+          href="/eng-notebook"
           color="transparent"
           className={classes.navLink}
         >
         <Subject className={classes.icons} /> Engineering Notebook
       </Button>
     </ListItem>
-    <ListItem className={classes.listItem}>
-      <Button
-        href="/"
-        color="transparent"
-        className={classes.navLink}
-      >
-          <Info className={classes.icons} /> About
-        </Button>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Button
-          href="/profile-page"
-          color="transparent"
-          className={classes.navLink}
-        >
-          <Person className={classes.icons} /> Account
-        </Button>
-      </ListItem>
       <ListItem className={classes.listItem}>
         <Button
           href="/login-page"
