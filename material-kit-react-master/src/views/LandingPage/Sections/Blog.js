@@ -24,9 +24,6 @@ export default function ProductSection() {
           <h2 className={classes.title}>Updates</h2>
 
         </GridItem>
-        <GridItem xs={12} sm={12} md={8}>
-      
-        </GridItem>
       </GridContainer>
     </div>
   );

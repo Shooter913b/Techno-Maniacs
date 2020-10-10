@@ -38,7 +38,7 @@ export default function Components(props) {
   return (
     <div>
       <Header
-        brand="Material Kit React"
+        brand="Techno Maniacs"
         rightLinks={<HeaderLinks />}
         fixed
         color="transparent"
@@ -48,42 +48,20 @@ export default function Components(props) {
         }}
         {...rest}
       />
-      <Parallax image={require("assets/img/bg4.jpg")}>
+      <Parallax image={require("assets/img/robot.png")}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
-                <h1 className={classes.title}>Material Kit React.</h1>
-                <h3 className={classes.subtitle}>
-                  A Badass Material-UI Kit based on Material Design.
-                </h3>
+                <h1 className={classes.title}>Techno Maniacs</h1>
+                <h3>Hello viewers! We are the team called Techno Maniacs. We are made up of 4 people in total. Our
+                team members are made up of Infant Elfrick, Madhav, Tanish, and Aryan. We are all in the 8th grade,
+                and started in the 6th grade. </h3>
               </div>
             </GridItem>
           </GridContainer>
         </div>
       </Parallax>
-
-      <div className={classNames(classes.main, classes.mainRaised)}>
-        <SectionBasics />
-        <SectionNavbars />
-        <SectionTabs />
-        <SectionPills />
-        <SectionNotifications />
-        <SectionTypography />
-        <SectionJavascript />
-        <SectionCarousel />
-        <SectionCompletedExamples />
-        <SectionLogin />
-        <GridItem md={12} className={classes.textCenter}>
-          <Link to={"/login-page"} className={classes.link}>
-            <Button color="primary" size="lg" simple>
-              View Login Page
-            </Button>
-          </Link>
-        </GridItem>
-        <SectionExamples />
-        <SectionDownload />
-      </div>
       <Footer />
     </div>
   );
