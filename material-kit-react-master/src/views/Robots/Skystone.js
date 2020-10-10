@@ -59,8 +59,7 @@ export default function LandingPage(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
-
-
+            <p>Hello there</p>
         </div>
       </div>
       <Footer />
