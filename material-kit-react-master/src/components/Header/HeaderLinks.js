@@ -12,7 +12,7 @@ import ListItem from "@material-ui/core/ListItem";
 import Tooltip from "@material-ui/core/Tooltip";
 
 // @material-ui/icons
-import { Motorcycle, Info, PowerSettingsNew, Subject, Update } from "@material-ui/icons";
+import { Motorcycle, Info, PowerSettingsNew, Subject, Update, PeopleAlt } from "@material-ui/icons";
 
 // core components
 import CustomDropdown from "components/CustomDropdown/CustomDropdown.js";
@@ -57,6 +57,15 @@ export default function HeaderLinks(props) {
             <Info className={classes.icons} /> About
           </Button>
         </ListItem>
+        <ListItem className={classes.listItem}>
+          <Button
+            href="/members-page"
+            color="transparent"
+            className={classes.navLink}
+          >
+            <PeopleAlt className={classes.icons} /> Member Info
+          </Button>
+        </ListItem>
       <ListItem className={classes.listItem}>
         <Button
           href="/blog-page"
@@ -81,6 +90,7 @@ export default function HeaderLinks(props) {
           color="transparent"
           className={classes.navLink}
         >
+
           <PowerSettingsNew className={classes.icons} /> Log out
         </Button>
       </ListItem>
