@@ -42,9 +42,6 @@ export default function HeaderLinks(props) {
             <Link to="/ult-goal" className={classes.dropdownLink}>
               2020-2021 Ultimate Goal
             </Link>,
-            <Link to="/tbd-page" className={classes.dropdownLink}>
-              2021-2022 TBD
-            </Link>,
           ]}
         />
       </ListItem>
@@ -84,6 +81,7 @@ export default function HeaderLinks(props) {
         <Subject className={classes.icons} /> Engineering Notebook
       </Button>
     </ListItem>
+<<<<<<< Updated upstream
       <ListItem className={classes.listItem}>
         <Button
           href="/login-page"
@@ -94,6 +92,8 @@ export default function HeaderLinks(props) {
           <PowerSettingsNew className={classes.icons} /> Log out
         </Button>
       </ListItem>
+=======
+>>>>>>> Stashed changes
     </List>
   );
 }
