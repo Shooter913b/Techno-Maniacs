@@ -17,6 +17,12 @@ import Parallax from "components/Parallax/Parallax.js";
 
 import styles from "assets/jss/material-kit-react/views/landingPage.js";
 
+// core components
+import Card from "components/Card/Card.js";
+import CardBody from "components/Card/CardBody.js";
+
+import { cardTitle, cardLink, cardSubtitle } from "assets/jss/material-kit-react.js";
+
 // Sections for this page
 import Blog from "./Sections/Blog.js";
 
@@ -42,7 +48,7 @@ export default function LandingPage(props) {
         }}
         {...rest}
       />
-      <Parallax filter image={require("assets/img/landing-bg.jpg")}>
+      <Parallax filter image={require("assets/img/landing-bg.png")}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
