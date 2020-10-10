@@ -91,8 +91,6 @@ export default function HeaderLinks(props) {
           <PowerSettingsNew className={classes.icons} /> Log out
         </Button>
       </ListItem>
-=======
->>>>>>> Stashed changes
     </List>
   );
 }

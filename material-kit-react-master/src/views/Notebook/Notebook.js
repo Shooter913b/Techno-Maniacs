@@ -77,11 +77,11 @@ export default function LandingPage(props) {
           alt="Card-img-cap"
         />
         <CardBody>
-          <h4 className={classes.cardTitle}>Engineering Notebook 2020-2021</h4>
-          <p>This is our engineering notebook for the FTC Ultimate Goal season. Here we list what we worked on each day and we update it every week.</p>
+          <h4 className={classes.cardTitle}>Engineering Notebook 2019-2020</h4>
+          <p>This is our engineering notebook for the FTC Skystone season. Here we list what we worked on each day.</p>
           <Button
             color="info"
-            href="https://docs.google.com/document/d/1ubyghXOy0mmd7vJJcCAhqUA_SviHI3itGXBu2WALqHE/edit#heading=h.mw59xkn7vuw1"
+            href="https://docs.google.com/document/d/1n0fN2ALb0o91mRNl2KIrEO2fHIt2sHwAQWEyWAvzmtc/edit"
             target="_blank">
           View Notebook</Button>
         </CardBody>
