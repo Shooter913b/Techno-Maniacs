@@ -73,8 +73,8 @@ export default function LandingPage(props) {
         <img
           style={{height: "180px", width: "100%", display: "block"}}
           className={classes.imgCardTop}
-          src="..."
-          alt="Card-img-cap"
+          src="https://michellgroup.com/wp-content/uploads/2019/11/data-storage.jpg"
+          alt="..."
         />
         <CardBody>
           <h4 className={classes.cardTitle}>Engineering Notebook 2019-2020</h4>
@@ -92,8 +92,8 @@ export default function LandingPage(props) {
         <img
           style={{height: "180px", width: "100%", display: "block"}}
           className={classes.imgCardTop}
-          src="..."
-          alt="Card-img-cap"
+          src="https://michellgroup.com/wp-content/uploads/2019/11/data-storage.jpg"
+          alt="..."
         />
         <CardBody>
           <h4 className={classes.cardTitle}>Engineering Notebook 2020-2021</h4>
