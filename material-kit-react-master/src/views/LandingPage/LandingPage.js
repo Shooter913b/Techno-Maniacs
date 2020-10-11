@@ -25,7 +25,19 @@ import { cardTitle, cardLink, cardSubtitle } from "assets/jss/material-kit-react
 
 // Sections for this page
 import Blog from "./Sections/Blog.js";
-
+import * as firebase from 'firebase';
+import "firebase/auth";
+import "firebase/firestore";
+var config = {
+  apiKey: "AIzaSyAEq52oTk0_79uB5BhgOpbiGB_GbLVRqmk",
+    authDomain: "technomaniacs-aab1e.firebaseapp.com",
+    databaseURL: "https://technomaniacs-aab1e.firebaseio.com",
+    projectId: "technomaniacs-aab1e",
+    storageBucket: "technomaniacs-aab1e.appspot.com",
+    messagingSenderId: "705094170140",
+    appId: "1:705094170140:web:720fbdcab0868f8c7651d9",
+    measurementId: "G-MDVE0H83EH"
+};
 
 const dashboardRoutes = [];
 
