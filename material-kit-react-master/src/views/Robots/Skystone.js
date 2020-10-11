@@ -65,7 +65,7 @@ export default function LandingPage(props) {
         <Card style={{width: "50rem"}}>
           <CardBody>
             <h4 className={classes.cardTitle}>SkyStone Robot</h4>
-            <p>Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.</p>
+            <p>Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.
             Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.
             Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.
             Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.
@@ -73,7 +73,8 @@ export default function LandingPage(props) {
             Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.
             Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.
             Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.
-            Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.
+            Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/1dPf4VSF9lo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </CardBody>
         </Card>
         <Carousel />
