@@ -14,7 +14,7 @@ import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import Parallax from "components/Parallax/Parallax.js";
-import Carousel from "views/Carousel.js";
+import Carousel from "views/Carousels/CarouselUlt.js";
 import { Col, Row } from "reactstrap";
 import styles from "assets/jss/material-kit-react/views/landingPage.js";
 import Card from "components/Card/Card.js";

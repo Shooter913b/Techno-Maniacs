@@ -18,7 +18,7 @@ import { Col, Row } from "reactstrap";
 import styles from "assets/jss/material-kit-react/views/landingPage.js";
 import Card from "components/Card/Card.js";
 import CardBody from "components/Card/CardBody.js";
-import Carousel from "views/Carousel.js";
+import Carousel from "views/Carousels/Carousel.js";
 // Sections for this page
 
 
