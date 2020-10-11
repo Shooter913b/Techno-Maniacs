@@ -13,7 +13,6 @@ import LoginPage from "views/LoginPage/LoginPage.js";
 import Notebook from "views/Notebook/Notebook.js";
 import Skystone from "views/Robots/Skystone.js";
 import UltimateGoal from "views/Robots/UltimateGoal.js";
-import TBD from "views/Robots/TBD.js";
 import MemberPage from "views/MemberPage/MemberPage.js";
 
 var hist = createBrowserHistory();
@@ -21,7 +20,6 @@ var hist = createBrowserHistory();
 ReactDOM.render(
   <Router history={hist}>
     <Switch>
-      <Route path="/tbd-page" component={TBD} />
       <Route path="/skystone" component={Skystone} />
       <Route path="/ult-goal" component={UltimateGoal} />
       <Route path="/eng-notebook" component={Notebook} />

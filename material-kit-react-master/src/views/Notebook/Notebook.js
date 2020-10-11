@@ -63,50 +63,42 @@ export default function LandingPage(props) {
           </GridContainer>
         </div>
       </Parallax>
-      <div className={classNames(classes.main, classes.mainRaised)}>
-        <div className={classes.container}>
+          <div className={classes.container}>
+        <Card style={{width: "50rem"}}>
+          <img
+            style={{height: "450px", width:"100%", display: "block"}}
+            className={classes.imgCardTop}
+            src="https://i.ytimg.com/vi/XiGB_8Ppnbs/hqdefault.jpg"
+            alt="..."
+          />
+          <CardBody>
+            <h4 className={classes.cardTitle}>Engineering Notebook 2019-2020</h4>
+            <p>This is our engineering notebook for the FTC Skystone season. Here we list what we worked on each day.</p>
+            <Button
+              color="info"
+              href="https://docs.google.com/document/d/1n0fN2ALb0o91mRNl2KIrEO2fHIt2sHwAQWEyWAvzmtc/edit"
+              target="_blank">
+            View Notebook</Button>
+          </CardBody>
+        </Card>
+        <Card style={{width: "50rem"}}>
+          <img
+            style={{height: "450px", width: "100%", display: "block"}}
+            className={classes.imgCardTop}
+            src="https://i.ytimg.com/vi/bIbQzsaa1gU/maxresdefault.jpg"
+            alt="..."
+          />
+          <CardBody>
+            <h4 className={classes.cardTitle}>Engineering Notebook 2020-2021</h4>
+            <p>This is our engineering notebook for the FTC Ultimate Goal season. Here we list what we worked on each day and we update it every week.</p>
+            <Button
+              color="info"
+              href="https://docs.google.com/document/d/1ubyghXOy0mmd7vJJcCAhqUA_SviHI3itGXBu2WALqHE/edit#heading=h.mw59xkn7vuw1"
+              target="_blank">
+            View Notebook</Button>
+          </CardBody>
+        </Card>
         </div>
-      </div>
-      <Row>
-      <Col>
-      <Card style={{width: "20rem"}}>
-        <img
-          style={{height: "180px", width: "100%", display: "block"}}
-          className={classes.imgCardTop}
-          src="https://michellgroup.com/wp-content/uploads/2019/11/data-storage.jpg"
-          alt="..."
-        />
-        <CardBody>
-          <h4 className={classes.cardTitle}>Engineering Notebook 2019-2020</h4>
-          <p>This is our engineering notebook for the FTC Skystone season. Here we list what we worked on each day.</p>
-          <Button
-            color="info"
-            href="https://docs.google.com/document/d/1n0fN2ALb0o91mRNl2KIrEO2fHIt2sHwAQWEyWAvzmtc/edit"
-            target="_blank">
-          View Notebook</Button>
-        </CardBody>
-      </Card>
-      </Col>
-      <Col>
-      <Card style={{width: "20rem"}}>
-        <img
-          style={{height: "180px", width: "100%", display: "block"}}
-          className={classes.imgCardTop}
-          src="https://michellgroup.com/wp-content/uploads/2019/11/data-storage.jpg"
-          alt="..."
-        />
-        <CardBody>
-          <h4 className={classes.cardTitle}>Engineering Notebook 2020-2021</h4>
-          <p>This is our engineering notebook for the FTC Ultimate Goal season. Here we list what we worked on each day and we update it every week.</p>
-          <Button
-            color="info"
-            href="https://docs.google.com/document/d/1ubyghXOy0mmd7vJJcCAhqUA_SviHI3itGXBu2WALqHE/edit#heading=h.mw59xkn7vuw1"
-            target="_blank">
-          View Notebook</Button>
-        </CardBody>
-      </Card>
-      </Col>
-      </Row>
       <Footer />
     </div>
   );

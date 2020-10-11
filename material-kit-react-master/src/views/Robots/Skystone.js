@@ -18,6 +18,7 @@ import { Col, Row } from "reactstrap";
 import styles from "assets/jss/material-kit-react/views/landingPage.js";
 import Card from "components/Card/Card.js";
 import CardBody from "components/Card/CardBody.js";
+import Carousel from "views/Carousel.js";
 // Sections for this page
 
 
@@ -58,14 +59,7 @@ export default function LandingPage(props) {
           </GridContainer>
         </div>
       </Parallax>
-      <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
-        <img
-          style={{height: "180px", width: "100%", display: "block"}}
-          className={classes.imgCardTop}
-          src="assets/img/SkystoneRobot.p"
-          alt="Card-img-cap"
-        />
         <Row>
         <Col>
         <Card style={{width: "50rem"}}>
@@ -82,10 +76,10 @@ export default function LandingPage(props) {
             Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.
           </CardBody>
         </Card>
+        <Carousel />
         </Col>
         </Row>
         </div>
-      </div>
       <Footer />
     </div>
   );
