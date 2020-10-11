@@ -14,9 +14,10 @@ import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import Parallax from "components/Parallax/Parallax.js";
-
+import { Col, Row } from "reactstrap";
 import styles from "assets/jss/material-kit-react/views/landingPage.js";
-
+import Card from "components/Card/Card.js";
+import CardBody from "components/Card/CardBody.js";
 // Sections for this page
 
 
@@ -33,7 +34,7 @@ export default function LandingPage(props) {
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        brand="Material Kit React"
+        brand="Techno Maniacs"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
@@ -59,7 +60,30 @@ export default function LandingPage(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
-            <p>Hello there</p>
+        <img
+          style={{height: "180px", width: "100%", display: "block"}}
+          className={classes.imgCardTop}
+          src="assets/img/SkystoneRobot.p"
+          alt="Card-img-cap"
+        />
+        <Row>
+        <Col>
+        <Card style={{width: "50rem"}}>
+          <CardBody>
+            <h4 className={classes.cardTitle}>SkyStone Robot</h4>
+            <p>Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.</p>
+            Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.
+            Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.
+            Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.
+            Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.
+            Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.
+            Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.
+            Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.
+            Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.Aryan type here.
+          </CardBody>
+        </Card>
+        </Col>
+        </Row>
         </div>
       </div>
       <Footer />

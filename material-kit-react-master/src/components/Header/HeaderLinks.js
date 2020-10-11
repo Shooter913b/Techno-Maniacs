@@ -26,6 +26,15 @@ export default function HeaderLinks(props) {
   const classes = useStyles();
   return (
     <List className={classes.list}>
+    <ListItem className={classes.listItem}>
+      <Button
+        href="/"
+        color="transparent"
+        className={classes.navLink}
+      >
+          <Info className={classes.icons} /> About
+        </Button>
+      </ListItem>
       <ListItem className={classes.listItem}>
         <CustomDropdown
           noLiPadding
@@ -45,15 +54,7 @@ export default function HeaderLinks(props) {
           ]}
         />
       </ListItem>
-      <ListItem className={classes.listItem}>
-        <Button
-          href="/"
-          color="transparent"
-          className={classes.navLink}
-        >
-            <Info className={classes.icons} /> About
-          </Button>
-        </ListItem>
+
         <ListItem className={classes.listItem}>
           <Button
             href="/members-page"
@@ -81,16 +82,6 @@ export default function HeaderLinks(props) {
         <Subject className={classes.icons} /> Engineering Notebook
       </Button>
     </ListItem>
-      <ListItem className={classes.listItem}>
-        <Button
-          href="/login-page"
-          color="transparent"
-          className={classes.navLink}
-        >
-
-          <PowerSettingsNew className={classes.icons} /> Log out
-        </Button>
-      </ListItem>
     </List>
   );
 }
