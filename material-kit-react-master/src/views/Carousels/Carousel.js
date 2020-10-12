@@ -3,7 +3,7 @@ import React from "react";
 import Carousel from "react-slick";
 // material-ui components
 // @material-ui/icons
-import { Motorcycle, Subject } from "@material-ui/icons/";
+import { Motorcycle, Subject, Comment } from "@material-ui/icons/";
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
@@ -12,6 +12,7 @@ import Card from "components/Card/Card.js";
 import image1 from "assets/img/SkystoneReq.jpg";
 import image2 from "assets/img/Skystone1.jpg";
 import image3 from "assets/img/Skystone2.jpg";
+import image4 from "assets/img/SkystoneDis.jpg";
 
 export default function SectionCarousel(){
   const settings = {
@@ -36,6 +37,18 @@ export default function SectionCarousel(){
               <div className="slick-caption">
                 <h4>
                   <Subject className="slick-icons" />Planning for Skystone season.
+                </h4>
+              </div>
+            </div>
+            <div>
+              <img
+                src={image4}
+                alt="Fourth slide"
+                className="slick-image"
+              />
+              <div className="slick-caption">
+                <h4>
+                  <Comment className="slick-icons" />Skystone discussion.
                 </h4>
               </div>
             </div>
